@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+$globalFont2: "Montserrat", sans-serif;
+$globalColor: #6265d8;
+.about{
+    background-color: #E3EFFF;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 90px 150px;
+    gap: 5rem;
+    height: 87.5vh;
+    .text-card{
+        span{
+            font-family: $globalFont2;
+            color: $globalColor;
+        }
+        h1{
+            padding-top: 10px;
+            font-family: $globalFont2;
+            color: $globalColor;
+        }
+        p{
+            color: $globalColor;
+            padding: 10px 0;
+            width: 350px;
+            font-family: $globalFont2;
+        }
+        @import "./Button.style.scss";
+    }
+}
